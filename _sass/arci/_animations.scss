@@ -1,0 +1,162 @@
+.animated {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    -webkit-animation-duration: 1s;
+    -webkit-animation-fill-mode: both
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.animatedFadeIn {
+    opacity: 0
+}
+
+.fadeIn {
+    opacity: 0;
+    animation-name: fadeIn;
+    -webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+@-webkit-keyframes fadeInUp {
+    from {
+        transform: translate3d(0, 40px, 0)
+    }
+
+    to {
+        transform: translate3d(0, 0, 0);
+        opacity: 1
+    }
+}
+
+.animatedFadeInUp {
+    opacity: 0
+}
+
+.fadeInUp {
+    opacity: 0;
+    animation-name: fadeInUp;
+    -webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInLeft {
+    from {
+        transform: translateX(40px)
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInLeft {
+    from {
+        transform: translateX(40px);
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animatedFadeLeft {
+    opacity: 0
+}
+
+.fadeInLeft {
+    opacity:0;
+    animation-name: fadeInLeft;
+    -webkit-animation-name: fadeInLeft;
+}
+@keyframes fadeInRight {
+    from {
+        transform: translateX(-40px)
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadeInRight {
+    from {
+        transform: translateX(-40px);
+    }
+
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animatedFadeRight {
+    opacity: 0
+}
+
+.fadeInRight {
+    opacity:0;
+    animation-name: fadeInRight;
+    -webkit-animation-name: fadeInRight;
+}
+@keyframes textFade {
+    from {
+        font-size:36px
+    }
+
+    to {
+        font-size:48px;
+        opacity: 0;
+    }
+}
+
+@-webkit-keyframes textFade {
+    from {
+        font-size:36px
+    }
+
+    to {
+        font-size:48px;
+        opacity: 0;
+    }
+}
+
+.animatedtextFade {
+    opacity: 0
+}
+
+.textFade {
+    opacity:1;
+    animation-name: textFade;
+    -webkit-animation-name: textFade;
+}

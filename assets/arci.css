@@ -1,0 +1,513 @@
+/* line 1, E:/Development/Arci.io/_sass/arci/_reset.scss */
+html * {
+  text-size-adjust: none;
+}
+
+/* line 2, E:/Development/Arci.io/_sass/arci/_reset.scss */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+/* line 91, E:/Development/Arci.io/_sass/arci/_reset.scss */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+/* line 104, E:/Development/Arci.io/_sass/arci/_reset.scss */
+body {
+  line-height: 1;
+  margin: 0;
+}
+
+/* line 108, E:/Development/Arci.io/_sass/arci/_reset.scss */
+ol,
+ul {
+  list-style: none;
+}
+
+/* line 112, E:/Development/Arci.io/_sass/arci/_reset.scss */
+blockquote,
+q {
+  quotes: none;
+}
+
+/* line 116, E:/Development/Arci.io/_sass/arci/_reset.scss */
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+
+/* line 123, E:/Development/Arci.io/_sass/arci/_reset.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 127, E:/Development/Arci.io/_sass/arci/_reset.scss */
+img {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* line 131, E:/Development/Arci.io/_sass/arci/_reset.scss */
+a {
+  text-decoration: inherit;
+  color: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/* line 137, E:/Development/Arci.io/_sass/arci/_reset.scss */
+* {
+  box-sizing: border-box;
+}
+
+/* line 2, E:/Development/Arci.io/_sass/arci/_fonts.scss */
+h1 {
+  font-family: sans-serif;
+  font-size: 36px;
+  line-height: 40px;
+}
+
+/* line 7, E:/Development/Arci.io/_sass/arci/_fonts.scss */
+h2 {
+  font-family: sans-serif;
+  font-size: 28px;
+  line-height: 32px;
+}
+
+/* line 12, E:/Development/Arci.io/_sass/arci/_fonts.scss */
+h3 {
+  font-family: sans-serif;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/* line 17, E:/Development/Arci.io/_sass/arci/_fonts.scss */
+p {
+  font-family: sans-serif;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+/* line 1, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.animated {
+  animation-duration: 1s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* line 28, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.animatedFadeIn {
+  opacity: 0;
+}
+
+/* line 32, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.fadeIn {
+  opacity: 0;
+  animation-name: fadeIn;
+  -webkit-animation-name: fadeIn;
+}
+
+@keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
+}
+
+/* line 60, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.animatedFadeInUp {
+  opacity: 0;
+}
+
+/* line 64, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.fadeInUp {
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
+}
+
+@keyframes fadeInLeft {
+  from {
+    transform: translateX(40px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInLeft {
+  from {
+    transform: translateX(40px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* line 92, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.animatedFadeLeft {
+  opacity: 0;
+}
+
+/* line 96, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.fadeInLeft {
+  opacity: 0;
+  animation-name: fadeInLeft;
+  -webkit-animation-name: fadeInLeft;
+}
+
+@keyframes fadeInRight {
+  from {
+    transform: translateX(-40px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeInRight {
+  from {
+    transform: translateX(-40px);
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* line 123, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.animatedFadeRight {
+  opacity: 0;
+}
+
+/* line 127, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.fadeInRight {
+  opacity: 0;
+  animation-name: fadeInRight;
+  -webkit-animation-name: fadeInRight;
+}
+
+@keyframes textFade {
+  from {
+    font-size: 36px;
+  }
+  to {
+    font-size: 48px;
+    opacity: 0;
+  }
+}
+
+@-webkit-keyframes textFade {
+  from {
+    font-size: 36px;
+  }
+  to {
+    font-size: 48px;
+    opacity: 0;
+  }
+}
+
+/* line 154, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.animatedtextFade {
+  opacity: 0;
+}
+
+/* line 158, E:/Development/Arci.io/_sass/arci/_animations.scss */
+.textFade {
+  opacity: 1;
+  animation-name: textFade;
+  -webkit-animation-name: textFade;
+}
+
+/* line 1, E:/Development/Arci.io/_sass/arci/_header.scss */
+body {
+  position: relative;
+}
+
+/* line 1, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions {
+  background-color: #191919;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+/* line 8, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container1,
+#decisions .container2 {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 250ms;
+}
+
+/* line 16, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container1:hover,
+#decisions .container2:hover {
+  width: 70%;
+  margin-top: -24px;
+  background-color: #fff;
+}
+
+/* line 21, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container1:hover h1,
+#decisions .container2:hover h1 {
+  color: #191919;
+  padding: 0 48px;
+}
+
+/* line 27, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container1 h1,
+#decisions .container2 h1 {
+  color: #fff;
+}
+
+/* line 31, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container1 a,
+#decisions .container2 a {
+  display: block;
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 41, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container1 {
+  width: 50%;
+  border-right: 1px solid #fff;
+}
+
+/* line 44, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container1:hover {
+  border-right: 1px solid #191919;
+}
+
+/* line 49, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container2 {
+  width: 50%;
+  border-left: 1px solid #fff;
+}
+
+/* line 52, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container2:hover {
+  border-left: 1px solid #191919;
+}
+
+/* line 57, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container3 {
+  opacity: 0;
+  left: 50%;
+  margin-left: -74.5px;
+  position: absolute;
+  background-color: #fff;
+  border-radius: 4px;
+  top: 10%;
+  padding: 24px;
+  z-index: 0;
+}
+
+/* line 67, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container3 .svgcontainer {
+  width: 100px;
+  margin: 8px auto;
+}
+
+/* line 72, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions .container3 h2 {
+  color: #191919;
+  text-align: center;
+}
+
+/* line 87, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions.decisionOne .container1 {
+  width: 100%;
+  background-color: #808080;
+}
+
+/* line 90, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions.decisionOne .container1 h1 {
+  color: #fff;
+}
+
+/* line 95, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions.decisionOne .container2 {
+  display: none;
+}
+
+/* line 100, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions.decisionTwo .container2 {
+  width: 100%;
+  background-color: #fff;
+}
+
+/* line 103, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions.decisionTwo .container2 h1 {
+  color: #191919;
+}
+
+/* line 108, E:/Development/Arci.io/_sass/arci/_home.scss */
+#decisions.decisionTwo .container1 {
+  width: 0%;
+}
+
+/* line 1, E:/Development/Arci.io/_sass/arci/_footer.scss */
+.transition {
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  width: 0;
+  background-color: #187bcd;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* line 10, E:/Development/Arci.io/_sass/arci/_footer.scss */
+.transition h1 {
+  transform: translateX(-80px);
+  color: #fff;
+  text-align: center;
+  opacity: 0;
+}
+
+/*# sourceMappingURL=arci.css.map */

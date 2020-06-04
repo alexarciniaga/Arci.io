@@ -1,0 +1,112 @@
+#decisions {
+    background-color: #191919;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+    .container1,
+    .container2 {
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 250ms;
+
+        &:hover {
+            width: 70%;
+            margin-top:-24px;
+            background-color: #fff;
+
+            h1 {
+                color: #191919;
+                padding:0 48px;
+            }
+        }
+
+        h1 {
+            color: #fff;
+        }
+
+        a {
+            display: block;
+            z-index: 1;
+            position: absolute;
+            top: 0;
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .container1 {
+        width: 50%;
+        border-right:1px solid #fff;
+        &:hover {
+            border-right:1px solid #191919;
+        }
+    }
+
+    .container2 {
+        width: 50%;
+        border-left:1px solid #fff;
+        &:hover {
+            border-left:1px solid #191919;
+        }
+    }
+
+    .container3 {
+        opacity:0;
+        left:50%;
+        margin-left:-74.5px;
+        position: absolute;
+        background-color:#fff;
+        border-radius:4px;
+        top:10%;
+        padding:24px;
+        z-index: 0;
+        .svgcontainer {
+            width:100px;
+            margin:8px auto;
+        }
+
+        h2 {
+            color: #191919;
+            text-align: center;
+        }
+    }
+    // &.decisionOne,&.decisionTwo {
+    //     .container3 {
+    //         opacity:1;
+    //         margin-top:-84.5px;
+    //         top:50%;
+    //         transition: 1.5s;
+    //         display:block;
+    //     }
+    // }
+    &.decisionOne {
+        .container1 {
+            width:100%;
+            background-color:#808080;
+            h1 {
+                color:#fff;
+                
+            }
+        }
+        .container2 {
+            display:none;
+        }
+    }
+    &.decisionTwo {
+        .container2 {
+            width:100%;
+            background-color:#fff;
+            h1 {
+                color:#191919;
+                
+            }
+        }
+        .container1 {
+            width:0%;
+        }
+    }
+}

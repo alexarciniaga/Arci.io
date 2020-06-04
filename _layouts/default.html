@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include meta.html -%}
+
+  <body data-barba="wrapper">
+
+    {%- include header.html -%}
+
+    <main data-barba="container" data-barba-namespace="home" id="{{ page.title }}">
+        {{ content }}
+    </main>
+
+    {%- include footer.html -%}
+
+  </body>
+
+</html>

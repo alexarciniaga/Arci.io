@@ -1,0 +1,16 @@
+.transition {
+    height:100vh;
+    position: absolute;
+    top:0;
+    width:0;
+    background-color:#187bcd;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    h1 {
+        transform:translateX(-80px);
+        color:#fff;
+        text-align:center;
+        opacity:0;
+    }
+}
