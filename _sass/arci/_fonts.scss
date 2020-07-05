@@ -1,21 +1,44 @@
-$ss: sans-serif;
-h1 {
+$ss: 'Montserrat',sans-serif;
+$orange: #EC6302;
+$gray:#48464C;
+$gray-black :#666;
+.h1,h1 {
     font-family:$ss;
+    color:#fff;
     font-size:36px;
-    line-height:40px;
+    font-weight:900;
+    line-height:1.44;
 }
-h2 {
+.h2 {
     font-family: $ss;
+    color:#fff;
     font-size:28px;
-    line-height:32px;
+    font-weight:700;
+    line-height:1.44;
 }
-h3 {
+.h3 {
     font-family: $ss;
+    color:#fff;
     font-size:18px;
-    line-height:22px;
+    font-weight:700;
+    line-height:1.44;
 }
 p {
     font-family:$ss;
+    color:#fff;
     font-size:16px;
-    line-height:18px;
+    font-weight:300;
+    line-height:1.44;
+    letter-spacing:-0.5px;
+}
+a {
+    font-family:$ss;
+    color:#fff;
+    font-size:16px;
+    font-weight:700;
+    line-height:1.44;
+    transition:125ms;
+    &:hover {
+        color:$orange;
+    }
 }

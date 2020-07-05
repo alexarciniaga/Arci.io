@@ -1,0 +1,63 @@
+#portfolio {
+    display: grid;
+    grid-gap:8px;
+    grid-template-columns:repeat(2,1fr);
+    .hover {
+        position: relative;
+        transition:0;
+        display:block;
+        background-color:$orange;
+        .container1 {
+            opacity:1;
+        }
+        .container2 {
+            position: absolute;
+            top:48%;
+            width:100%;
+            display:none;
+        }
+        &.hovered {
+           .container1 {
+               opacity:0;
+            transition:150ms;
+           }
+           .container2 {
+               display:block;
+               text-align: center;
+           }
+        }
+    }
+    #zilliant {
+        position:relative;
+        .container1 {
+            position: static;
+            padding-top:60%;
+            background-size:cover;
+            background-repeat:no-repeat;
+            background:url('../assets/imagery/zilliant-thumb.PNG');
+
+        }
+    }
+    #mightyandtrue {
+        position:relative;
+        .container1 {
+            position: static;
+            padding-top:39%;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background:url('../assets/imagery/mightyandtrue.PNG');
+
+        }
+    }
+    #hot-sauce {
+        position:relative;
+        .container1 {
+            position: static;
+            padding-top:63.9%;
+            background-repeat:no-repeat;
+            background-size:cover;
+            background:url('../assets/imagery/red.PNG');
+
+        }
+    }
+}

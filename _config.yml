@@ -22,7 +22,7 @@ title: Fear No More | Arci.io
 email: alexarciniaga@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   It can be hard to find a developer that meets deadline, is easy to work with, and does nothing but the best. Fear no more. See why worldwide businesses and agency trust me to get the job done.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/" # the subpath of your site, e.g. /blog
 url: "arci.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  286893

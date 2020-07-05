@@ -1,3 +1,23 @@
 body {
+    background-color:#1e1d1c;
     position: relative;
+}
+header {
+    display:flex;
+    padding:12px 24px;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid #fff; 
+    .container1 {
+        svg {
+            width:120px;
+            margin-bottom:-6px;
+        }
+    }
+    .container2 {
+        display:grid;
+        align-items: center;
+        grid-template-columns:1fr 1fr 1fr;
+    }
 }
