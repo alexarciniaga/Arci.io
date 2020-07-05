@@ -423,12 +423,11 @@ header {
 }
 
 /* line 13, E:/Development/Arci.io/_sass/arci/_header.scss */
-header .container1 svg {
-  width: 120px;
-  margin-bottom: -6px;
+header .container1 a {
+  color: #EC6302;
 }
 
-/* line 18, E:/Development/Arci.io/_sass/arci/_header.scss */
+/* line 17, E:/Development/Arci.io/_sass/arci/_header.scss */
 header .container2 {
   display: grid;
   align-items: center;
@@ -584,7 +583,7 @@ header .container2 {
 /* line 1, E:/Development/Arci.io/_sass/arci/_footer.scss */
 .transition {
   height: 100vh;
-  position: absolute;
+  position: fixed;
   top: 0;
   width: 0;
   background-color: #EC6302;

@@ -10,9 +10,8 @@ header {
     align-items: center;
     border-bottom:1px solid #fff; 
     .container1 {
-        svg {
-            width:120px;
-            margin-bottom:-6px;
+        a {
+            color:$orange;
         }
     }
     .container2 {
