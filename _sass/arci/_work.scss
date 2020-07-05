@@ -60,4 +60,7 @@
 
         }
     }
+    @media screen and (max-width:992px) {
+        grid-template-columns: 1fr;
+    }
 }

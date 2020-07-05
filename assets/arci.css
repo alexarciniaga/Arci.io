@@ -437,7 +437,7 @@ header .container2 {
 
 /* line 2, E:/Development/Arci.io/_sass/arci/_home.scss */
 #homepage #section1 {
-  padding: 64px 0;
+  padding: 64px 24px;
   text-align: center;
 }
 
@@ -478,7 +478,7 @@ header .container2 {
   text-align: center;
   justify-content: space-around;
   border-top: 2px solid #EC6302;
-  padding-top: 64px;
+  padding: 64px 24px 0 24px;
 }
 
 @media screen and (max-width: 768px) {
@@ -572,6 +572,13 @@ header .container2 {
   background-repeat: no-repeat;
   background-size: cover;
   background: url("../assets/imagery/red.png");
+}
+
+@media screen and (max-width: 992px) {
+  /* line 1, E:/Development/Arci.io/_sass/arci/_work.scss */
+  #portfolio {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* line 1, E:/Development/Arci.io/_sass/arci/_footer.scss */
