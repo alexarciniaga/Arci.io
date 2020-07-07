@@ -1,0 +1,86 @@
+---
+layout: default
+title: "Zilliant"
+---
+<script>
+    document.addEventListener('DOMContentLoaded',()=> {
+        let anchors = document.querySelectorAll('.button')
+        anchors.forEach((anchor) => {
+            anchor.addEventListener('click',()=> {
+                var section1 = document.getElementById('section1');
+                var section2 = document.getElementById('section2');
+                var section3 = document.getElementById('section3');
+                var value = anchor.getAttribute("href");
+                if (value = '#section1') {
+                    section1.scrollIntoView();
+                }
+            })
+        })
+    })
+</script>
+<section id="section1">
+    <div class="container1 all-margin-24">
+        <div class="sub1 margin-24">
+            <div class="fadeInLeft animated h1 margin-16 center">
+                The Zilliant Experience
+            </div>
+        </div>
+        <div class="sub2 center">
+            <a class="button" href="#section2">
+                Website Build
+            </a>
+            <p>|</p>
+            <a class="button" href="#section3">
+                Email Template
+            </a>
+            <p>|</p>
+            <a class="button" href="#section4">
+                Landing Template
+            </a>
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <div class="container1 all-margin-24">
+        <div class="h2 fadeInRight animated center margin-16">
+            Part One: The Website
+        </div>
+        <p class="fadeInLeft animated margin-16">
+            The project was to build a <b>fully-modular</b> WordPress website from scratch, designs were provided for the built and I was the sole contributor to the website build itself.<br><br> Utilizing Advanced Custom Fields and Wordpress's own Gutenberg, I created a user friendly and functional template that not only looks fantastic, but performs great as well!
+        </p>
+        <a class="button" target="_blank" href="https://zilliant.com">Check out the live website!</a>
+    </div>
+    <div class="container2 margin-64">
+        <img src="{{ site.url }}/assets/imagery/zilliant-scope.png">
+        <img src="{{ site.url }}/assets/imagery/zilliant-thumb.png">
+        <img src="{{ site.url }}/assets/imagery/zilliant-admin.png">
+        <img src="{{ site.url }}/assets/imagery/zilliant-performance.png">
+    </div>
+</section>
+<section id="section3">
+    <div class="container1 all-margin-24">
+        <div class="h2 fadeInRight animated center margin-16">
+            Part Two: An Email Template
+        </div>
+        <p class="fadeInLeft animated margin-16">
+            The Email Template was built using MJML and is fully compliant with all modern email clients including both: Gmail and Outlook(both online and 2013+).
+        </p>
+    </div>
+    <div class="container2">
+        <img src="{{ site.url }}/assets/imagery/zilliant-email.png">
+    </div>
+</section>
+<section id="section4">
+    <div class="container1 all-margin-24">
+        <div class="h2 fadeInRight animated center margin-16">
+            Part Three: A Landing Page Template
+        </div>
+        <p class="fadeInLeft animated">
+            Built alongside the email template, the landing page was built using from scratch using static HTML and the design provided by the internal creative team.
+        </p>
+    </div>
+    <div class="container2">
+        <img src="{{ site.url }}/assets/imagery/zilliant-landing-page-1.png">
+        <img src="{{ site.url }}/assets/imagery/zilliant-landing-page-2.png">
+    </div>
+</section>

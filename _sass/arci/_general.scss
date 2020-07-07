@@ -1,8 +1,20 @@
 .margin-24 {
     margin-bottom:24px;
 }
+.margin-16 {
+    margin-bottom:16px;
+}
+.all-margin-24 {
+    margin:24px;
+}
+.center {
+    text-align: center;
+}
 .margin-64 {
     margin-bottom:64px;
+}
+.starter {
+    margin:64px auto;
 }
 a {
     &.button {

@@ -1,4 +1,16 @@
     document.addEventListener("DOMContentLoaded",() => {
+      loadWork();
+      function loadWork() {
+        let anchors = document.querySelectorAll('.hover');
+        anchors.forEach((anchor) => {
+            anchor.addEventListener('mouseenter', ()=> { 
+                anchor.classList.add('hovered');
+            })
+            anchor.addEventListener('mouseleave', ()=> {
+                anchor.classList.remove('hovered');
+            })
+        });
+      }
         function pageTransition() {
             var tl = gsap.timeline();
             var h1class = document.querySelector('.transition h1')
@@ -36,6 +48,7 @@
                 },
                 async enter(data) {
                     contentAnimation();
+                    loadWork();
                 },
                 async once(data) {
                     contentAnimation();
