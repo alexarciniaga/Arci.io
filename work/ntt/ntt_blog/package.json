@@ -1,0 +1,23 @@
+{
+  "name": "ntt_blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexarciniaga/ntt_blog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alexarciniaga/ntt_blog/issues"
+  },
+  "homepage": "https://github.com/alexarciniaga/ntt_blog#readme",
+  "dependencies": {
+    "mjml": "^4.5.1"
+  }
+}

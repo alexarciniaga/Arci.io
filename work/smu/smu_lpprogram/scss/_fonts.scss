@@ -1,0 +1,1082 @@
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-Light.otf") format("opentype");
+    font-weight:300;
+    font-style:normal;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-LightItalic.otf") format("opentype");
+    font-weight:300;
+    font-style:italic;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-Regular.otf") format("opentype");
+    font-weight:400;
+    font-style:normal;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-RegularItalic.otf") format("opentype");
+    font-weight:400;
+    font-style:italic;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-Medium.otf") format("opentype");
+    font-weight:500;
+    font-style:normal;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-MediumItalic.otf") format("opentype");
+    font-weight:500;
+    font-style:italic;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-Semibold.otf") format("opentype");
+    font-weight:600;
+    font-style:normal;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-Bold.otf") format("opentype");
+    font-weight:bold;
+    font-style:normal;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-BoldItalic.otf") format("opentype");
+    font-weight:bold;
+    font-style:italic;
+  }
+@font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-Black.otf") format("opentype");
+    font-weight:900;
+    font-style:normal;
+  }
+  @font-face {
+    font-family: 'TiemposFine';
+    src: url("./assets/fonts/TiemposFine-BlackItalic.otf") format("opentype");
+    font-weight:900;
+    font-style:italic;
+  }
+
+  .mega-dark-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1.04;
+    text-align: center;
+    color: $black;
+  }
+  
+  .mega-white-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1.04;
+    text-align: center;
+    color: $white;
+  }
+  
+  .mega-accent-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 1.04;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .h1-white {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: $white;
+  }
+  
+  .h1-accent {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: $goldenrod;
+  }
+  
+  .h1-dark {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    color: $black;
+  }
+  
+  .h1-white-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .h1-dark-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .h1-accent-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .mega-accent-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 40.5px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .mega-dark-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 40.5px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+    color: $black;
+  }
+  
+  .mega-white-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 40.5px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: center;
+    color: $white;
+  }
+  
+  .h1-dark-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .h1-accent-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .h1-white-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.38px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .h1-accent-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.38px;
+    color: $goldenrod;
+  }
+  
+  .h1-dark-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.38px;
+    color: $black;
+  }
+  
+  .h1-white-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 1.25;
+    letter-spacing: 0.38px;
+    color: $white;
+  }
+  
+  .h2-accent-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.21;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .h2-accent {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.21;
+    color: $goldenrod;
+  }
+  
+  .h2-dark-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.21;
+    text-align: center;
+    color: $black;
+  }
+  
+  .h2-dark {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.21;
+    color: $black;
+  }
+  
+  .h2-white-center {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.21;
+    text-align: center;
+    color: $white;
+  }
+  
+  .h2-white {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    line-height: 1.21;
+    color: $white;
+  }
+  
+  .h3-accent-center-alt {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .h3-accent-alt {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.5;
+    color: $goldenrod;
+  }
+  
+  .h3-accent {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: $goldenrod;
+  }
+  
+  .h3-accent-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .h3-dark-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: $black;
+  }
+  
+  .h3-white-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    text-align: center;
+    color: $white;
+  }
+  
+  .h3-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: $black;
+  }
+  
+  .h3-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 24px;
+    line-height: 1.5;
+    color: $white;
+  }
+  
+  .h2-accent-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.62;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .h2-dark-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.62;
+    text-align: center;
+    color: $black;
+  }
+  
+  .h2-white-center-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.62;
+    text-align: center;
+    color: $white;
+  }
+  
+  .h2-accent-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.62;
+    color: $goldenrod;
+  }
+  
+  .h2-white-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.62;
+    color: $white;
+  }
+  
+  .h2-dark-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.62;
+    color: $black;
+  }
+  
+  .Symbol-OrganizerGroup-Title {
+    font-family: SFProText;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 1.2;
+    color: $white;
+  }
+  
+  .quote-mutw {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.31px;
+    color: $pinkish-grey;
+  }
+  
+  .quote-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.31px;
+    color: $black;
+  }
+  
+  .quote-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 20px;
+    line-height: 1.5;
+    letter-spacing: -0.31px;
+    color: $white;
+  }
+  
+  .h3-accent-center-alt-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.25;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .h3-accent-alt-mobile {
+    font-family: 'TiemposFine',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    font-style: italic;
+    line-height: 1.25;
+    color: $goldenrod;
+  }
+  
+  .nb-sidebar-header {
+    font-family: 'HelveticaNueue';
+    font-size: 18px;
+    color: #777777;
+  }
+  
+  .h3-accent-center-mobile {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .h3-accent-mobile {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+    color: $goldenrod;
+  }
+  
+  .h3-dark-center-mobile {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+    text-align: center;
+    color: $black;
+  }
+  
+  .h3-white-center-mobile {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+    text-align: center;
+    color: $white;
+  }
+  
+  .h3-dark-mobile {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+    color: $black;
+  }
+  
+  .subhead-accent-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .subhead-accent {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 2.5px;
+    color: $goldenrod;
+  }
+  
+  .h3-white-mobile {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.25;
+    color: $white;
+  }
+  
+  .subhead-dark-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .subhead-white-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 2.5px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .subhead-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 2.5px;
+    color: $black;
+  }
+  
+  .subhead-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 18px;
+    line-height: 1.33;
+    letter-spacing: 2.5px;
+    color: $white;
+  }
+  
+  .btn-large-dark-center {
+    font-family: 'OpenSans';
+    font-size: 16px;
+    line-height: 1;
+    letter-spacing: 2px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .p-mute-strong-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    font-weight:700;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: $pinkish-grey;
+  }
+  
+  .p-mute-strong {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight:700;
+    letter-spacing: -0.25px;
+    color: $pinkish-grey;
+  }
+  
+  .p-white-strong-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight:700;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .btn-large-accent {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.5px;
+    color: $goldenrod;
+  }
+  
+  .btn-large-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.5px;
+    color: $black;
+  }
+  
+  .btn-large-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.5px;
+    color: $white;
+  }
+  
+  .btn-large-dark-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .p-dark-strong {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight:700;
+    letter-spacing: -0.25px;
+    color: $black;
+  }
+  
+  .h4-accent {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: $goldenrod;
+  }
+  
+  .h4-accent-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .p-white-strong {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    color: $white;
+    font-weight:700;
+  }
+  
+  .h4-white-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .h4-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: $white;
+  }
+  
+  .h4-dark-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .h4-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    color: $black;
+  }
+  
+  .btn-large-white-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .btn-large-accent-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.13;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .p-dark-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .p-mute-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: #c7c6c9;
+  }
+  
+  .p-white-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .p-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    color: $black;
+  }
+  
+  .p-mute {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    color: $pinkish-grey;
+  }
+  
+  .p-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: -0.25px;
+    color: $white;
+  }
+  
+  .nb-comment-text {
+    font-family: 'HelveticaNueue';
+    font-size: 14px;
+    line-height: 1.35;
+    color: #e8e8e8;
+  }
+  
+  .nb-comment-titles {
+    font-family: 'HelveticaNueue';
+    font-size: 14px;
+    color: #e8e8e8;
+  }
+  
+  .small-text-dark {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.15px;
+    color: $black;
+  }
+  
+  .small-text-white {
+    font-family: 'OpenSans';
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.15px;
+    color: $white;
+  }
+  
+  .small-text-mute-strong {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.15px;
+    color: $pinkish-grey;
+    font-weight:700;
+  }
+  
+  .small-text-dark-strong {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.15px;
+    color: $black;
+    font-weight:700;
+  }
+  
+  .small-text-white-strong {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.15px;
+    color: $white;
+    font-weight:700;
+  }
+  
+  .small-text-mute-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: $pinkish-grey;
+  }
+  
+  .small-text-mute {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.15px;
+    color: $pinkish-grey;
+  }
+  
+  .small-text-dark-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .small-text-white-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.15px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .small-text-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.15px;
+    color: $black;
+  }
+  
+  .textfield-label-right-placeholder {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    text-align: right;
+    color: $pinkish-grey;
+  }
+  
+  .textfield-label-right-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    text-align: right;
+    color: $black;
+  }
+  
+  .textfield-label-right-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    text-align: right;
+    color: $white;
+  }
+  
+  .small-text-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1.29;
+    letter-spacing: 0.15px;
+    color: $white;
+  }
+  
+  .textfield-label-placeholder {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: $pinkish-grey;
+  }
+  
+  .textfield-header-accent {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: $goldenrod;
+  }
+  
+  .textfield-label-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: $white;
+  }
+  
+  .textfield-header-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 14px;
+    line-height: 1;
+    color: $black;
+  }
+  
+  .nav-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 13px;
+    line-height: 1.46;
+    color: $black;
+  }
+  
+  .nav-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 13px;
+    line-height: 1.46;
+    color: $white;
+  }
+  
+  .nav-accent {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 13px;
+    line-height: 1.46;
+    color: $goldenrod;
+  }
+  
+  .nb-indicator- {
+    font-family: 'HelveticaNueue';
+    font-size: 12px;
+    line-height: 2.28;
+    text-align: center;
+    color: $white;
+  }
+  
+  .btn-small-accent {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    color: $goldenrod;
+  }
+  
+  .btn-small-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    color: $black;
+  }
+  
+  .btn-small-accent-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: $goldenrod;
+  }
+  
+  .btn-small-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    color: $white;
+  }
+  
+  .btn-small-white-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .btn-small-dark-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 12px;
+    line-height: 1.33;
+    letter-spacing: 1.5px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .footer-text-mute-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 11px;
+    line-height: 1.64;
+    letter-spacing: 0.11px;
+    text-align: center;
+    color: $pinkish-grey;
+  }
+  
+  .footer-text-mute {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 11px;
+    line-height: 1.64;
+    letter-spacing: 0.11px;
+    color: $pinkish-grey;
+  }
+  
+  .footer-text-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 11px;
+    line-height: 1.64;
+    letter-spacing: 0.11px;
+    color: $black;
+  }
+  
+  .footer-text-white-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 11px;
+    line-height: 1.64;
+    letter-spacing: 0.11px;
+    text-align: center;
+    color: $white;
+  }
+  
+  .footer-text-dark-center {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 11px;
+    line-height: 1.64;
+    letter-spacing: 0.11px;
+    text-align: center;
+    color: $black;
+  }
+  
+  .footer-text-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 11px;
+    line-height: 1.64;
+    letter-spacing: 0.11px;
+    color: $white;
+  }
+  
+  .tag-dark {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1.25px;
+    color: $black;
+  }
+  
+  .tag-white {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1.25px;
+    color: $white;
+  }
+  
+  .tag-accent {
+    font-family: "trade-gothic-next",sans-serif;
+    font-size: 10px;
+    line-height: 1;
+    letter-spacing: 1.25px;
+    color: $goldenrod;
+  }
+  
+  .label-1 {
+    font-family: 'OpenSans';
+    font-size: 9px;
+    color: #ff6f6f;
+  }

@@ -5,7 +5,7 @@ body {
 header {
     display:flex;
     padding:12px 24px;
-    flex-direction:column;
+    flex-direction:row;
     justify-content: space-between;
     align-items: center;
     border-bottom:1px solid #fff; 
@@ -17,6 +17,11 @@ header {
     .container2 {
         display:grid;
         align-items: center;
-        grid-template-columns:1fr 1fr 1fr;
+        grid-template-columns:1fr;
+    }
+}
+@media screen and (max-width:512px) {
+    header {
+        flex-direction: column;
     }
 }

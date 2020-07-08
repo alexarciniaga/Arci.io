@@ -1,0 +1,109 @@
+<mjml>
+<mj-head>
+<mj-title>SMU application</mj-title>
+<mj-preview>SMU application</mj-preview>
+    <mj-attributes>
+    <mj-all font-family="Callibri,sans-serif,arial" letter-spacing="-0.25px"/>
+    </mj-attributes>
+<mj-style inline="inline">
+a {
+    color:inherit;
+    font-weight:inherit;
+    text-decoration:inherit;
+}
+.boldtext { 
+    font-weight:700;
+    text-decoration:underline;
+     }
+</mj-style>
+</mj-head>
+<mj-body background-color="#f4f4f4">
+    <mj-section padding="0">
+        <mj-column width="600px">
+            <mj-image padding="0" href="https://mightyandtrue.com" src="https://mightyandtrue.com/smu_awareness/assets/pngs/awarenessHero.png" alt="Welcome Future of Cybersecurity Leader" />
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        <div pardot-repeatable="repeatable">
+    </mj-raw>
+    <mj-section background-color="#fdfdfd">
+        <mj-column width="600px">
+            <mj-text align="center" font-size="24px" line-height="36px" color="#cc0035" font-weight="700">
+                <span pardot-region-type="simple" pardot-region="text1">There are currently about 4.07 million unfilled
+skilled cybersecurity job roles in the US.</span>
+            </mj-text>
+            <mj-text font-size="16px" line-height="24px">
+            <span pardot-region-type="simple" pardot-region="text2">That's a pretty good indicator that skilled cybersecurity professionals are
+in high demand. What impact does that have on how much current and
+future cybersecurity pros can expect to make? Find out by</span> <a href="https://mightyandtrue.com" class="boldtext">downloading
+our report on cybersecurity salaries.</a>
+            </mj-text>
+            <mj-button background-color="#354ca1" font-size="16px" inner-padding="14px 24px" line-height="18px" font-weight="600" border-radius="1px" href="https://mightyandtrue.com" >
+                <span pardot-region-type="simple" pardot-region="text7">GET THE REPORT</span>
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        </div>
+    </mj-raw>
+    <mj-raw>
+        <div pardot-repeatable="repeatable">
+    </mj-raw>
+    <mj-section padding-top="36px" padding-bottom="36px" background-color="#ededed">
+        <mj-column width="600px">
+            <mj-text padding="0" align="center" font-size="24px" line-height="36px" color="#cc0035" font-weight="700">
+                <span pardot-region-type="simple" pardot-region="text8">Learn how to protect data from breaches and cyberattacks.</span>
+            </mj-text>
+            <mj-text padding-top="18px" padding-left="0" padding-right="0" font-size="16px" padding-bottom="18px" line-height="24px" align="center">
+                <span pardot-region-type="simple" pardot-region="text9">Get an online MS in Cybersecurity from SMU</span>
+            </mj-text>
+            <mj-button background-color="#354ca1" font-size="16px" inner-padding="14px 24px" line-height="18px" font-weight="600" border-radius="1px" href="https://mightyandtrue.com" >
+                <span pardot-region-type="simple" pardot-region="text10">EXPLORE THE PROGRAM</span>
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-raw>
+        </div>
+    </mj-raw>
+    <mj-section padding-top="16px" padding-bottom="24px" background-color="#cc0035">
+        <mj-column width="600px">
+            <mj-text padding="0" align="center" font-size="11px" line-height="18px" color="#fdfdfd">
+                <span pardot-region-type="simple" pardot-region="text11">© Southern Methodist University<br>
+                5539 SMU Blvd, Dallas, TX 75206</span>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0 0 0 0"  background-color="#cc0035">
+        <mj-column>
+        <mj-navbar base-url="" hamburger="" ico-color="#ffffff">
+            <mj-navbar-link text-decoration="underline" href="https://mightyandtrue.com" color="#ffffff">Contact</mj-navbar-link>
+            <mj-navbar-link text-decoration="underline" href="https://mightyandtrue.com" color="#ffffff">Maps &amp; Directions</mj-navbar-link>
+            <mj-navbar-link text-decoration="underline" href="https://mightyandtrue.com" color="#ffffff">Legal Disclosures</mj-navbar-link>
+            <mj-navbar-link text-decoration="underline" href="%%unsubscribe%%" color="#ffffff">Unsubscribe</mj-navbar-link>
+        </mj-navbar>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="#b9b9b7">
+        <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element background-color="transparent" name="twitter" href="https://mightyandtrue.com">
+          </mj-social-element>
+          <mj-social-element background-color="transparent" name="facebook" href="https://mightyandtrue.com">
+          </mj-social-element>
+          <mj-social-element background-color="transparent" name="instagram" href="https://mightyandtrue.com">
+          </mj-social-element>
+          <mj-social-element background-color="transparent" name="linkedin" href="https://mightyandtrue.com">
+          </mj-social-element>
+        </mj-social>
+        </mj-column>
+    </mj-section>
+    <mj-section padding-top="1px" padding-bottom="5px" background-color="#f4f4f4">
+        <mj-column width="600px">
+            <mj-text align="center" font-size="11px" line-height="18px" color="#111111">
+                Having trouble? <a class="boldtext" href="	
+%%view_online%%">View this email in browser</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+</mj-body>
+</mjml>

@@ -1,0 +1,53 @@
+---
+layout: default
+title: "NTT"
+---
+<script>
+    document.addEventListener('DOMContentLoaded',()=> {
+        let anchors = document.querySelectorAll('.button')
+        anchors.forEach((anchor) => {
+            anchor.addEventListener('click',()=> {
+                var section1 = document.getElementById('section1');
+                var section2 = document.getElementById('section2');
+                var section3 = document.getElementById('section3');
+                var value = anchor.getAttribute("href");
+                if (value = '#section1') {
+                    section1.scrollIntoView();
+                }
+            })
+        })
+    })
+</script>
+<section id="section1">
+    <div class="container1 all-margin-24">
+        <div class="sub1 margin-24">
+            <div class="fadeInLeft animated h1 margin-16 center">
+                NTT Data Centers
+            </div>
+            <p class="fadeInLeft animated center margin-16">
+                NTT was looking for a set of <b>email templates</b> that were compatible and interactible within their Marketo instance. One was to be used to get users to engage with their blog posts, the other to gain new clients
+            </p>
+        </div>
+        <div class="sub2 center">
+            <a class="button" href="#section2">
+                Email Templates
+            </a>
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <div class="container1 all-margin-24">
+        <div class="h2 fadeInRight animated center margin-16">
+           Email Templates
+        </div>
+        <p class="fadeInLeft animated margin-16">
+            These templates utilized the MJML framework and are fully compliant with all modern email clients including: <br>Gmail<br>Outlook(both online and 2016+)<br>Apple Mail<br> and all associated viewports and browsers of the above listed
+        </p>
+    </div>
+    <div class="container2 margin-64">
+        <img src="{{ site.url }}/assets/imagery/work/ntt/ntt-blog.png">
+        <a class="button" target="_blank" href="{{ site.url }}/work/ntt/ntt_blog/">Check out the blog template!</a>
+        <img src="{{ site.url }}/assets/imagery/work/ntt/ntt-howdy-email.png">
+        <a class="button" target="_blank" href="{{ site.url }}/work/ntt/ntt_howdy/">Check out the nurture email!</a>
+    </div>
+</section>

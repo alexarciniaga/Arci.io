@@ -1,0 +1,118 @@
+<mjml>
+<mj-head>
+<mj-title>SMU application</mj-title>
+<mj-preview>SMU application</mj-preview>
+    <mj-attributes>
+    <mj-all font-family="Callibri,sans-serif,arial" letter-spacing="-0.25px"/>
+    </mj-attributes>
+<mj-style inline="inline">
+a {
+    color:inherit;
+    font-weight:inherit;
+    text-decoration:inherit;
+}
+.boldtext { 
+    font-weight:700;
+    text-decoration:underline;
+     }
+</mj-style>
+</mj-head>
+<mj-body background-color="#f4f4f4">
+    <mj-section background-color="#fdfdfd" padding-top="6px" padding-bottom="6px">
+        <mj-column width="600px">
+            <mj-image width="124px" src="https://mightyandtrue.com/smu_application/assets/pngs/logoblue.png" alt="smu_logo"/>
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#cc0035">
+        <mj-column width="600px">
+            <mj-image src="https://mightyandtrue.com/smu_application/assets/pngs/applicationHero.png" alt="Welcome Future of Cybersecurity Leader" />
+        </mj-column>
+    </mj-section>
+    <mj-section background-color="#fdfdfd">
+        <mj-column width="540px">
+            <mj-text font-weight="700" font-size="16px" line-height="24px">
+                Dear %%first_name%%,
+            </mj-text>
+            <mj-text font-size="16px" line-height="24px">
+            As you complete your application to the Cybersecurity online master's program here at SMU, we want to make sure you have everything you need to succeed. Along with the application itself, you'll need the following:
+            </mj-text>
+            <mj-text padding-bottom="14px" font-size="16px" line-height="24px">
+            1. $75 application fee (waived if application is submitted before 2/17)<br>
+            2. Undergraduate transcripts (upload unofficial for application)<br>
+            3. GRE Scores (can be waived with 2 years of industry experience in a 
+                related field)<br>
+            4. Letters of recommendation (optional)<br>
+            5. TOEFL or IELTS scores (if English is not your first language)<br>
+            6. Professional résumé<br>
+            7. Statement of purpose
+            </mj-text>
+            <mj-text font-size="16px" padding-bottom="18px" line-height="24px">
+            We're very excited to help guide you on this journey. If you have any questions regarding the application process, please feel free to contact Melvin Alvarenga, Graduate Admissions Coordinator, by email at <a href="mailto:mealvarenga@mail.smu.edu" class="boldtext">mealvarenga@mail.smu.edu</a>, call at 214-768-1186 or schedule an appointment below.
+            </mj-text>
+            <mj-button background-color="#354ca1" font-size="16px" inner-padding="14px 24px" line-height="18px" font-weight="600" border-radius="1px" href="https://mightyandtrue.com" >
+                SCHEDULE AN APPOINTMENT
+            </mj-button>
+            <mj-text container-background-color="#fff" padding-top="27px" padding-bottom="47px" font-size="16px" line-height="24px">
+            Warm regards,<br><br>
+
+            Melvin Alvarenga<br>
+            Graduate Admissions Coordinator<br>
+            214-768-1186<br>
+            online@smu.edu
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding-top="42px" padding-bottom="50px" background-color="#ededed">
+        <mj-column width="600px">
+            <mj-text align="center" font-size="24px" line-height="36px" color="#cc0035" font-weight="700">
+                Don’t forget to complete your application.
+            </mj-text>
+            <mj-text font-size="16px" padding-bottom="18px" line-height="24px" align="center">
+                Go back to it
+            </mj-text>
+            <mj-button background-color="#354ca1" font-size="16px" inner-padding="14px 24px" line-height="18px" font-weight="600" border-radius="1px" href="https://mightyandtrue.com" >
+                GO TO APPLICATION
+            </mj-button>
+        </mj-column>
+    </mj-section>
+    <mj-section padding-top="16px" padding="0" padding-bottom="24px" background-color="#354ca1">
+        <mj-column width="600px">
+            <mj-text align="center" font-size="11px" line-height="18px" color="#fdfdfd">
+                © Southern Methodist University<br>
+                5539 SMU Blvd, Dallas, TX 75206
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0 0 16px 0"  background-color="#354ca1">
+        <mj-column>
+        <mj-navbar base-url="#" hamburger="" ico-color="#ffffff">
+            <mj-navbar-link text-decoration="underline" href="https://mightyandtrue.com" color="#ffffff">Contact</mj-navbar-link>
+            <mj-navbar-link text-decoration="underline" href="https://mightyandtrue.com" color="#ffffff">Maps &amp; Directions</mj-navbar-link>
+            <mj-navbar-link text-decoration="underline" href="https://mightyandtrue.com" color="#ffffff">Legal Disclosures</mj-navbar-link>
+            <mj-navbar-link text-decoration="underline" href="https://mightyandtrue.com" color="#ffffff">Unsubscribe</mj-navbar-link>
+        </mj-navbar>
+        </mj-column>
+    </mj-section>
+    <mj-section padding="0" background-color="#b9b9b7">
+        <mj-column>
+        <mj-social font-size="15px" icon-size="30px" mode="horizontal">
+          <mj-social-element background-color="transparent" name="twitter" href="https://mightyandtrue.com">
+          </mj-social-element>
+          <mj-social-element background-color="transparent"name="facebook" href="https://mightyandtrue.com">
+          </mj-social-element>
+          <mj-social-element background-color="transparent"name="instagram" href="https://mightyandtrue.com">
+          </mj-social-element>
+          <mj-social-element background-color="transparent"name="linkedin" href="https://mightyandtrue.com">
+          </mj-social-element>
+        </mj-social>
+        </mj-column>
+    </mj-section>
+    <mj-section padding-top="1px" padding-bottom="5px" background-color="#f4f4f4">
+        <mj-column width="600px">
+            <mj-text align="center" font-size="11px" line-height="18px" color="#111111">
+                Having trouble? <a class="boldtext" href="https://mightyandtrue.com">View this email in browser</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+</mj-body>
+</mjml>

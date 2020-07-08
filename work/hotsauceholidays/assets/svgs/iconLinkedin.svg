@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="25px" height="24px" viewBox="0 0 25 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>7E7B271A-03E1-436E-8F4B-8F877388CC95</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M5.37321429,24 L0.396428571,24 L0.396428571,7.97678571 L5.37321429,7.97678571 L5.37321429,24 Z M2.88214286,5.79107143 C1.29107143,5.79107143 0,4.47321429 0,2.88214286 C0,1.29107143 1.29107143,0 2.88214286,0 C4.47321429,0 5.76428571,1.29107143 5.76428571,2.88214286 C5.76428571,4.47321429 4.47321429,5.79107143 2.88214286,5.79107143 Z M24,24 L19.0339286,24 L19.0339286,16.2 C19.0339286,14.3410714 18.9964286,11.9571429 16.4464286,11.9571429 C13.8589286,11.9571429 13.4625,13.9767857 13.4625,16.0660714 L13.4625,24 L8.49107143,24 L8.49107143,7.97678571 L13.2642857,7.97678571 L13.2642857,10.1625 L13.3339286,10.1625 C13.9982143,8.90357143 15.6214286,7.575 18.0428571,7.575 C23.0785714,7.575 24.0053571,10.8910714 24.0053571,15.1982143 L24.0053571,24 L24,24 Z" id="path-1"></path>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="project_unisys" transform="translate(-1767.000000, -4728.000000)">
+            <g id="footer" transform="translate(0.000000, 4658.000000)">
+                <g id="section">
+                    <g id="div" transform="translate(1666.000000, 70.000000)">
+                        <g id="icon-linkedin" transform="translate(101.000000, 0.000000)">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Color" mask="url(#mask-2)" fill="#5C5C5C">
+                                <g transform="translate(-1.714286, -1.714286)" id="Purple">
+                                    <rect x="0" y="0" width="27.4285714" height="27.4285714"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

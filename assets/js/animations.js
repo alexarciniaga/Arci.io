@@ -3,14 +3,26 @@
       function loadWork() {
         let anchors = document.querySelectorAll('.hover');
         anchors.forEach((anchor) => {
-            anchor.addEventListener('mouseenter', ()=> { 
-                anchor.classList.add('hovered');
-            })
-            anchor.addEventListener('mouseleave', ()=> {
-                anchor.classList.remove('hovered');
-            })
+            if (window.innerWidth < 992) {
+            anchor.classList.add('hovered');
+            anchor.removeEventListener('mouseenter',loadWork,true);
+            anchor.removeEventListener('mouseleave',loadWork,true)
+            }
+            else {
+              anchor.classList.remove('hovered');
+              anchor.addEventListener('mouseenter', ()=> { 
+                  anchor.classList.add('hovered');
+              })
+              anchor.addEventListener('mouseleave', ()=> {
+                  anchor.classList.remove('hovered');
+              })
+
+            }
         });
       }
+      window.addEventListener('resize', ()=> {
+        loadWork();
+      })
         function pageTransition() {
             var tl = gsap.timeline();
             var h1class = document.querySelector('.transition h1')

@@ -1,0 +1,75 @@
+---
+layout: default
+title: "SMU"
+---
+<script>
+    document.addEventListener('DOMContentLoaded',()=> {
+        let anchors = document.querySelectorAll('.button')
+        anchors.forEach((anchor) => {
+            anchor.addEventListener('click',()=> {
+                var section1 = document.getElementById('section1');
+                var section2 = document.getElementById('section2');
+                var section3 = document.getElementById('section3');
+                var value = anchor.getAttribute("href");
+                if (value = '#section1') {
+                    section1.scrollIntoView();
+                }
+            })
+        })
+    })
+</script>
+<section id="section1">
+    <div class="container1 all-margin-24">
+        <div class="sub1 margin-24">
+            <div class="fadeInLeft animated h1 margin-16 center">
+                Southern Methodist University
+            </div>
+            <p class="fadeInLeft animated center margin-16">
+                Southern Methodist University(SMU) wanted a set of <b>email and landing page templates</b> that were compatible and interactible within their Pardot instance.
+            </p>
+        </div>
+        <div class="sub2 center">
+            <a class="button" href="#section2">
+                Email Templates
+            </a>
+            <p>|</p>
+            <a class="button" href="#section3">
+                Landing Templates
+            </a>
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <div class="container1 all-margin-24">
+        <div class="h2 fadeInRight animated center margin-16">
+            Part One: Email Templates
+        </div>
+        <p class="fadeInLeft animated margin-16">
+            These templates utilized the MJML framework and are fully compliant with all modern email clients including: <br>Gmail<br>Outlook(both online and 2016+)<br>Apple Mail<br> and all associated viewports and browsers of the above listed
+        </p>
+    </div>
+    <div class="container2 margin-64">
+        <img src="{{ site.url }}/assets/imagery/work/smu/smu-awareness.png">
+        <a class="button" target="_blank" href="{{ site.url }}/work/smu/smu_awareness/">Check out the the awareness template!</a>
+        <img src="{{ site.url }}/assets/imagery/work/smu/smu-program.png">
+        <a class="button" target="_blank" href="{{ site.url }}/work/smu/smu_program/">Check out the the program template!</a>
+        <img src="{{ site.url }}/assets/imagery/work/smu/smu-application.png">
+        <a class="button" target="_blank" href="{{ site.url }}/work/smu/smu_application/">Check out the the application template!</a>
+    </div>
+</section>
+<section id="section3">
+    <div class="container1 all-margin-24">
+        <div class="h2 fadeInRight animated center margin-16">
+            Part Two: Landing Page Template
+        </div>
+        <p class="fadeInLeft animated margin-16">
+            The landing page template was part of the same campaign the program template was a part of. If users would engage with the program email, they were sent to this page to fill out a form that would begin their application. This page is editable within Pardot and was built from the ground up. <br><br>
+            Technologies used include:<br>
+            HTML5<br>CSS<br>SASS<br>Javascript<br>And code snippets from Pardot to enable template functionality for the end user in the platform
+        </p>
+    </div>
+    <div class="container2 center">
+        <img src="{{ site.url }}/assets/imagery/work/smu/smu-landingpage.png">
+        <a class="button" target="_blank" href="{{ site.url }}/work/smu/smu_lpprogram/">Check out the the landing page template!</a>
+    </div>
+</section>

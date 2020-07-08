@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="13px" height="24px" viewBox="0 0 13 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 60 (101010) - https://sketch.com -->
+    <title>C5469132-0E17-414D-8F21-87D8A57A54EB</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M3.5953125,24 L3.5953125,13.265625 L0,13.265625 L0,9 L3.5953125,9 L3.5953125,5.6390625 C3.5953125,1.9875 5.8265625,0 9.084375,0 C10.6453125,0 11.9859375,0.1171875 12.375,0.16875 L12.375,3.984375 L10.115625,3.984375 C8.34375,3.984375 8.0015625,4.828125 8.0015625,6.0609375 L8.0015625,9 L12,9 L11.4515625,13.265625 L8.0015625,13.265625 L8.0015625,24" id="path-1"></path>
+    </defs>
+    <g id="pages" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="project_unisys" transform="translate(-1666.000000, -4728.000000)">
+            <g id="footer" transform="translate(0.000000, 4658.000000)">
+                <g id="section">
+                    <g id="div" transform="translate(1666.000000, 70.000000)">
+                        <g id="icon-facebook">
+                            <mask id="mask-2" fill="white">
+                                <use xlink:href="#path-1"></use>
+                            </mask>
+                            <use id="Mask" fill="#000000" fill-rule="nonzero" xlink:href="#path-1"></use>
+                            <g id="Color" mask="url(#mask-2)" fill="#5C5C5C">
+                                <g transform="translate(-5.812500, 0.000000)" id="Purple">
+                                    <rect x="0" y="0" width="24" height="24"></rect>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

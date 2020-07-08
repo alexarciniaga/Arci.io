@@ -1,0 +1,214 @@
+<mjml>
+  <mj-head>
+    <mj-title></mj-title>
+    <mj-style>
+    @media screen and (max-width:600px) {
+      .hidemobile {
+        display:none;
+      }
+      .addbottompad {
+        padding-bottom:8px;
+      }
+    }
+    @media screen and (max-width:480px) {
+      .textcenter div,
+      .textcenter table {
+        text-align:center !important;
+        margin:0 auto;
+      }
+    }
+    </mj-style>
+    <mj-style inline="inline">
+      h1 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 36px;
+        font-weight: 900;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        margin: 0;
+        color: #ffffff;
+      }
+      a {
+        color:inherit;
+        font-size:inherit;
+        text-decoration:underline
+      }
+
+      .subhead {
+        font-family: 'Roboto', sans-serif;
+        font-size: 24px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      .button-blue {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #0033cc;
+      }
+
+      button {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      h2 {
+        font-family: 'Roboto', sans-serif;
+        font-size: 18px;
+        font-weight: 300;
+        font-stretch: normal;
+        margin: 0;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #ffffff;
+      }
+
+      p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        margin: 0;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.5;
+        letter-spacing: normal;
+        color: #000000;
+      }
+
+      .p-mute {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        font-weight: normal;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: normal;
+        letter-spacing: normal;
+        text-align: center;
+        color: #919191;
+      }
+    </mj-style>
+    <mj-attributes>
+      <mj-text padding="0" />
+      <mj-image padding="0" />
+      <mj-button padding="0" />
+    </mj-attributes>
+    <mj-font name="Roboto" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,900,900i&display=swap" />
+
+  </mj-head>
+  <mj-body background-color="#f4f4f4">
+  <mj-wrapper padding="0px 16px" background-color="#f4f4f4">
+    <mj-section background-color="#f4f4f4" padding="16px 16px">
+      <mj-column width="50%">
+        <mj-image src="http://info.ragingwire.com/rs/265-FHK-559/images/ntt-logo-blue-mark%402x.png" href="${logourl}" css-class="textcenter" height="49px" align="left" width="134px" alt="ntt-logo" />
+      </mj-column>
+      <mj-column width="50%">
+        <mj-text font-family="'Roboto', sans-serif;" css-class="textcenter" font-size="16px" align="right" line-height="49px" text-decoration="underline" color="#919191">
+          <a href="{{system.viewAsWebpageLink}}">View in Browser</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-hero mode="fixed-height" height="414px" background-width="568px" background-height="416px" background-url="http://info.ragingwire.com/rs/265-FHK-559/images/gradient%402x.jpg" background-color="#2300cc" padding="0px 48px">
+      <mj-image padding-top="24px" src="http://info.ragingwire.com/rs/265-FHK-559/images/globe.gif" alt="globe" width="70px" height="70px" />
+      <mj-text padding-bottom="8px" padding-top="24px"  >
+        <h1>Dallas</h1>
+      </mj-text>
+      <mj-text font-family="'Roboto', sans-serif;" font-size="24px" align="center" font-weight="normal" color="#ffffff" padding-bottom="24px"  >
+      is your (data center's) gateway to the world
+      </mj-text>
+      <mj-text padding-bottom="24px"  >
+        <h2>See why Dallas DC market can help you extend your reach and maximize revenue</h2>
+      </mj-text>
+      <mj-button font-family="'Roboto',sans-serif" width="100%" height="48px" font-size="18px" background-color="#fff" border-radius="1px" color="#0033cc" href="#" align="center">
+        Read the article
+      </mj-button>
+    </mj-hero>
+    <mj-section background-color="#fff" padding-bottom="48px">
+      <mj-column padding-left="48px" padding-right="48px">
+        <mj-text padding-bottom="16px"  >
+          <p>The hyperscalers are already in Dallas. It offers low-cost, stable utility power, and a dense fiber infrastructure. The large concentration of wholesale colocation and cloud providers mean they can extend their platforms' reach across the globe.</p>
+        </mj-text>
+        <mj-text padding-bottom="24px"  >
+          <p>These hyperscalers see Dallas data centers as enablers of their business strategies. Read this to find out why you should too.</p>
+        </mj-text>
+        <mj-button font-family="'Roboto',sans-serif" width="100%" height="48px" font-size="18px" background-color="#0033cc" padding-bottom="24px" border-radius="1px" color="#fff" href="#" align="center">
+          Read the article
+        </mj-button>
+        <mj-text>
+          <p>If you are ready to see our award-winning data center in Dallas, schedule a tour today.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    
+  </mj-wrapper>
+  <mj-wrapper padding="0px 16px" background-color="#f4f4f4">
+    <mj-section background-color="#f4f4f4" padding-top="16px" padding-bottom="16px">
+      <mj-column>
+        <mj-text align="center" font-family="'Roboto', sans-serif" font-size="16px" color="#919191" line-height="19px" padding-bottom="8px">
+          NTT Dallas TX 1<br>
+          2008 Lookout Dr, Garland, TX 75044
+        </mj-text>
+        <mj-text align="center" font-family="'Roboto', sans-serif" font-size="16px" color="#919191" line-height="1.44" text-decoration="underline">
+          <a href="https://www.ntt.com/en/index.html">Contact Us</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section css-class="borderspacing" background-color="#f4f4f4" padding-top="20px" padding-bottom="30px" border-top="1px solid #919191">
+      <mj-column>
+        <mj-text align="center" line-height="1.44" font-family="'Roboto', sans-serif" font-size="16px" color="#919191">
+          Terms of Use
+        </mj-text>
+      </mj-column>
+      <mj-column width="4px">
+        <mj-text css-class="hidemobile" align="center" font-family="'Roboto', sans-serif" font-size="16px" color="#919191">
+          |
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" font-family="'Roboto', sans-serif" line-height="1.44" font-size="16px"  color="#919191">
+          Privacy Policy
+        </mj-text>
+      </mj-column>
+      <mj-column width="4px">
+        <mj-text css-class="hidemobile" align="center" font-family="'Roboto', sans-serif" font-size="16px" color="#919191">
+          |
+        </mj-text>
+      </mj-column>
+      <mj-column>
+        <mj-text align="center" font-family="'Roboto', sans-serif" line-height="1.44" font-size="16px"  color="#919191">
+          <a href="{{system.unsubscribeLink}}">Unsubscribe</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section padding-top="5px" padding-bottom="13px" background-color="#f4f4f4">
+      <mj-column>
+        <mj-text align="center" font-family="'Roboto', sans-serif" font-size="12px" color="#919191">
+          © 2019 RagingWire Data Centers All Rights Reserved
+        </mj-text>
+      </mj-column>
+    </mj-section>
+  </mj-wrapper>
+  </mj-body>
+</mjml>
